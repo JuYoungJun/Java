@@ -10,9 +10,9 @@ public class Test {
 		int result = (int)(var1+(var2+var3))+(int)Double.parseDouble(var4);
 		int result2 = (int)(var1+(int)var2+var3+Double.parseDouble(var4));
 		int result3 = (int)var1+(int)(var2+var3)+(int)Double.parseDouble(var4);
-		System.out.println("1번은 : " + result);
-		System.out.println("2번은 : " + result2);
-		System.out.println("3번은 : " + result3);
+		System.out.println(result);
+		System.out.println(result2);
+		System.out.println(result3);
 		}
 
 }
